@@ -56,6 +56,7 @@ The values ​​of the list will be added in the following form: `key=value1&ke
 
 For example:
 ```java
+	TextView notification = (TextView)findViewById(R.id.notification);
 	RespListener listener = new RespListener() {
 		@Override
 		public void onResponse(String response) {
