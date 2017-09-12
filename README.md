@@ -3,7 +3,7 @@ Library for easy work with web requests (modified Volley)
 
 Gradle:
 ```
-    compile 'com.github.fellowcode:WebRequest:0.0.3'
+	compile 'com.github.fellowcode:WebRequest:0.0.4'
     compile 'com.android.volley:volley:1.0.0'
 ```
 
