@@ -1,4 +1,4 @@
-# WebRequest
+﻿# WebRequest
 Library for easy work with web requests (modified Volley)
 
 Gradle:
@@ -20,7 +20,7 @@ RespListener listener = new RespListener() {
 Send request:
 ```java
 	WebRequest web = new WebRequest("http://google.com", listener);
-    RequestQueue queue = Volley.newRequestQueue(this);
+    	RequestQueue queue = Volley.newRequestQueue(this);
 	queue.add(web);
 ```
 
