@@ -9,12 +9,12 @@ Gradle:
 
 For start need make request listener, response - content html:
 ```java
-RespListener listener = new RespListener() {
-            @Override
-            public void onResponse(String response) {
-                //your code
-            }
-        };
+	RespListener listener = new RespListener() {
+				@Override
+				public void onResponse(String response) {
+					//your code
+				}
+			};
 ```
 
 Send request:
