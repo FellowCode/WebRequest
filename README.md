@@ -47,7 +47,7 @@ To add value in request need:
 	web.AddList("key", list);
 	
 	//Or for array
-	String[2] values = {"value1", "value2"};
+	String[] values = {"value1", "value2"};
 	web.AddList("key", values);
 ```
 
@@ -63,7 +63,7 @@ For example:
 		}
 	};
 	WebRequest web = new WebRequest("http://google.com", listener);
-	RequestQueue queue = Volley.newRequestQueue(this);
+	RequestQueue queue = Volley.newRequestQueue(context);
 	//Add value
 	web.AddField("key1", "value1");
 
